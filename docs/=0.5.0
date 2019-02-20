@@ -1,0 +1,34 @@
+Requirement already up-to-date: sphinx in /usr/local/lib/python2.7/dist-packages
+Collecting recommonmark
+  Downloading https://files.pythonhosted.org/packages/9b/3d/92ea48401622510e57b4bdaa74dc9db2fb9e9e892324b48f9c02d716a93a/recommonmark-0.5.0-py2.py3-none-any.whl
+Requirement already up-to-date: sphinxcontrib-websupport in /usr/local/lib/python2.7/dist-packages (from sphinx)
+Requirement already up-to-date: babel!=2.0,>=1.3 in /usr/local/lib/python2.7/dist-packages (from sphinx)
+Requirement already up-to-date: imagesize in /usr/local/lib/python2.7/dist-packages (from sphinx)
+Requirement already up-to-date: setuptools in /usr/local/lib/python2.7/dist-packages (from sphinx)
+Requirement already up-to-date: packaging in /usr/local/lib/python2.7/dist-packages (from sphinx)
+Requirement already up-to-date: Pygments>=2.0 in /usr/local/lib/python2.7/dist-packages (from sphinx)
+Requirement already up-to-date: requests>=2.0.0 in /usr/local/lib/python2.7/dist-packages (from sphinx)
+Requirement already up-to-date: six>=1.5 in /usr/local/lib/python2.7/dist-packages (from sphinx)
+Requirement already up-to-date: docutils>=0.11 in /usr/local/lib/python2.7/dist-packages (from sphinx)
+Requirement already up-to-date: typing; python_version < "3.5" in /usr/local/lib/python2.7/dist-packages (from sphinx)
+Requirement already up-to-date: alabaster<0.8,>=0.7 in /usr/local/lib/python2.7/dist-packages (from sphinx)
+Requirement already up-to-date: Jinja2>=2.3 in /usr/local/lib/python2.7/dist-packages (from sphinx)
+Requirement already up-to-date: snowballstemmer>=1.1 in /usr/local/lib/python2.7/dist-packages (from sphinx)
+Collecting commonmark>=0.7.3 (from recommonmark)
+  Downloading https://files.pythonhosted.org/packages/ab/ca/439c88039583a29564a0043186875258e9a4f041fb5c422cd387b8e10175/commonmark-0.8.1-py2.py3-none-any.whl (47kB)
+Requirement already up-to-date: pytz>=0a in /usr/local/lib/python2.7/dist-packages (from babel!=2.0,>=1.3->sphinx)
+Requirement already up-to-date: pyparsing>=2.0.2 in /usr/local/lib/python2.7/dist-packages (from packaging->sphinx)
+Requirement already up-to-date: urllib3<1.25,>=1.21.1 in /usr/local/lib/python2.7/dist-packages (from requests>=2.0.0->sphinx)
+Requirement already up-to-date: certifi>=2017.4.17 in /usr/local/lib/python2.7/dist-packages (from requests>=2.0.0->sphinx)
+Requirement already up-to-date: chardet<3.1.0,>=3.0.2 in /usr/local/lib/python2.7/dist-packages (from requests>=2.0.0->sphinx)
+Requirement already up-to-date: idna<2.9,>=2.5 in /usr/local/lib/python2.7/dist-packages (from requests>=2.0.0->sphinx)
+Requirement already up-to-date: MarkupSafe>=0.23 in /usr/local/lib/python2.7/dist-packages (from Jinja2>=2.3->sphinx)
+Collecting future (from commonmark>=0.7.3->recommonmark)
+  Downloading https://files.pythonhosted.org/packages/90/52/e20466b85000a181e1e144fd8305caf2cf475e2f9674e797b222f8105f5f/future-0.17.1.tar.gz (829kB)
+Building wheels for collected packages: future
+  Running setup.py bdist_wheel for future: started
+  Running setup.py bdist_wheel for future: finished with status 'done'
+  Stored in directory: /root/.cache/pip/wheels/0c/61/d2/d6b7317325828fbb39ee6ad559dbe4664d0896da4721bf379e
+Successfully built future
+Installing collected packages: future, commonmark, recommonmark
+Successfully installed commonmark-0.8.1 future-0.17.1 recommonmark-0.5.0

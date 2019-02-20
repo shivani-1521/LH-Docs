@@ -1,7 +1,4 @@
-.. LibreHealth Docs documentation master file, created by
-   sphinx-quickstart on Tue Feb 19 21:45:55 2019.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. include:: ../README.rst
 
 Welcome to LibreHealth Docs
 =============================
@@ -13,11 +10,13 @@ Guide
 
 
 .. toctree::
+   :caption: About
    :maxdepth: 2
 
-   cloning
-   running
-   
+   Introduction
+   Installing
+   Running
+
 
     
 
